@@ -94,3 +94,6 @@ This will start the Cloudflare Worker in development mode, allowing you to test 
 
 Once both the frontend and worker are running, you can access the application in your browser at `http://localhost:5173`.
 
+### Dummy admin user login.
+- username : admin
+- password : admin
