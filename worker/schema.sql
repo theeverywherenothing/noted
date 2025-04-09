@@ -27,6 +27,8 @@ CREATE TABLE IF NOT EXISTS messages (
 	FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
+INSERT into users (username, password) VALUES("admin", "admin");
+
 CREATE TRIGGER IF NOT EXISTS update_report_timestamp AFTER
 UPDATE ON reports BEGIN
 UPDATE reports
