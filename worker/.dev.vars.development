@@ -1,0 +1,3 @@
+R2_BUCKET_URL="https://data.amplizard.com"
+FRONTEND_HOST="http://localhost:5173"
+JWT_SECRET="sdfjlksdjfkdsjfsf1290380921"
